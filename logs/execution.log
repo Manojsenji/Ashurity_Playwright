@@ -1,0 +1,24 @@
+[2026-02-27 17:48:00] INFO: Starting Test: Dashboard visible @smoke
+[2026-02-27 17:48:04] INFO: Starting login process
+[2026-02-27 17:48:05] INFO: Entered username: roc34
+[2026-02-27 17:48:05] INFO: Entered password
+[2026-02-27 17:48:06] INFO: Clicked Login button
+[2026-02-27 17:48:07] INFO: Clicked ROC radio button
+[2026-02-27 17:55:00] INFO: Starting Test: After login Dashboard visible @smoke
+[2026-02-27 17:55:01] INFO: Starting login process
+[2026-02-27 17:55:04] INFO: Login successful - Dashboard loaded
+[2026-02-27 17:55:04] INFO: Starting Dashboard validation test
+[2026-02-27 17:55:05] INFO: Dashboard heading is visible
+[2026-02-27 17:55:05] INFO: Test Passed: After login Dashboard visible @smoke
+[2026-02-27 17:55:20] INFO: Starting Test: After login Dashboard visible @smoke
+[2026-02-27 17:55:21] INFO: Starting login process
+[2026-02-27 17:55:24] INFO: Login successful - Dashboard loaded
+[2026-02-27 17:55:24] INFO: Starting Dashboard validation test
+[2026-02-27 17:55:25] INFO: Dashboard heading is visible
+[2026-02-27 17:55:25] INFO: Test Passed: After login Dashboard visible @smoke
+[2026-02-27 17:56:51] INFO: Starting Test: After login Dashboard visible @smoke
+[2026-02-27 17:56:54] INFO: Starting login process
+[2026-02-27 17:56:57] INFO: Login successful - Dashboard loaded
+[2026-02-27 17:56:57] INFO: Starting Dashboard validation test
+[2026-02-27 17:56:57] INFO: Dashboard heading is visible
+[2026-02-27 17:56:57] INFO: Test Passed: After login Dashboard visible @smoke
