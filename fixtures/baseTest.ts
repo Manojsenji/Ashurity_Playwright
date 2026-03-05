@@ -7,10 +7,26 @@ type MyFixtures = { loggedInPage: Page };
 
 export const test = base.extend<MyFixtures>({
   loggedInPage: async ({ page }, use, testInfo) => {
+    // ---------- Allure Metadata ----------
+    await allure.description(`Test case: ${testInfo.title}`);
+
+    await allure.parentSuite("Ashurity Automation");
+
+    // File name as Suite
+    const fileName = testInfo.file.split("\\").pop() || "Unknown File";
+    await allure.suite(fileName);
+
+    // Test title as SubSuite
+    await allure.subSuite(testInfo.title);
+
+    await allure.label("testClass", fileName);
+    await allure.label("testMethod", testInfo.title);
+
+    // -------------------------------------
 
     logger.info(`Starting Test: ${testInfo.title}`);
 
-    await page.goto('/');
+    await page.goto("/");
 
     const login = new LoginPage(page);
     await login.login(process.env.USERNAME!, process.env.PASSWORD!);
@@ -23,13 +39,11 @@ export const test = base.extend<MyFixtures>({
     if (testInfo.status !== testInfo.expectedStatus) {
       logger.error(`Test Failed: ${testInfo.title}`);
       const screenshot = await page.screenshot({ fullPage: true });
-      await allure.attachment('Failure Screenshot', screenshot, 'image/png');
-      logger.info('Screenshot attached to Allure report');
+      await allure.attachment("Failure Screenshot", screenshot, "image/png");
+      logger.info("Screenshot attached to Allure report");
     } else {
       logger.info(`Test Passed: ${testInfo.title}`);
     }
-
-   
   },
 });
 

@@ -6,6 +6,7 @@ import { execSync } from "child_process";
 import { validateEnv } from "./config/validateENV";
 
 export default async () => {
+
   const env = process.env.ENV || "DEV";
 
   dotenv.config({
@@ -37,7 +38,7 @@ Framework=Playwright
 
   fs.writeFileSync(
     path.join(resultsDir, "environment.properties"),
-    environmentData.trim(),
+    environmentData.trim()
   );
 
   // -------- EXECUTOR INFO --------
@@ -55,12 +56,12 @@ Framework=Playwright
     buildOrder: Date.now(),
     reportUrl: "http://localhost",
     buildUrl: "http://localhost",
-    buildTag: gitCommit,
+    buildTag: gitCommit
   };
 
   fs.writeFileSync(
     path.join(resultsDir, "executor.json"),
-    JSON.stringify(executor, null, 2),
+    JSON.stringify(executor, null, 2)
   );
 
   console.log("Allure Environment and Executor files created");

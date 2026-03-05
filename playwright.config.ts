@@ -8,7 +8,7 @@ export default defineConfig({
   retries: 0,
   workers: 3,
   reporter: [
-    ['html'],
+    ['html', {open: 'never'}],
     ['junit', { outputFile: 'test-results/results.xml' }],
     ['list'],
     ['allure-playwright']

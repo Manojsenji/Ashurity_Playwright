@@ -1421,3 +1421,415 @@ Call log:
 [2026-03-05 10:46:23] ERROR: User creation FAILED: roc1772687767242 → Validation errors: City is required
 [2026-03-05 10:46:24] ERROR: Test Failed: ROC creates user: Auto Test
 [2026-03-05 10:46:25] INFO: Screenshot attached to Allure report
+[2026-03-05 11:19:36] INFO: Starting Test: ROC creates user: Auto Test
+[2026-03-05 11:19:36] INFO: Starting Test: ROC creates user: Auto2 Test2
+[2026-03-05 11:19:36] INFO: Starting Test: First ROC Login
+[2026-03-05 11:19:37] INFO: Starting login process
+[2026-03-05 11:19:37] INFO: Starting login process
+[2026-03-05 11:19:38] INFO: Starting login process
+[2026-03-05 11:19:38] INFO: Role selection popup appeared.
+[2026-03-05 11:19:38] INFO: Role selection popup appeared.
+[2026-03-05 11:19:39] INFO: Role selection popup appeared.
+[2026-03-05 11:19:39] INFO: ROC role selected and navigated to dashboard.
+[2026-03-05 11:19:39] INFO: ROC role selected and navigated to dashboard.
+[2026-03-05 11:19:39] INFO: Starting Dashboard validation test
+[2026-03-05 11:19:40] INFO: ROC role selected and navigated to dashboard.
+[2026-03-05 11:19:40] INFO: Dashboard heading is visible
+[2026-03-05 11:19:40] INFO: Starting logout process
+[2026-03-05 11:19:41] INFO: Logout successful
+[2026-03-05 11:19:41] INFO: Test Passed: First ROC Login
+[2026-03-05 11:19:48] INFO: User creation SUCCESS: roc1772689779292
+[2026-03-05 11:19:48] INFO: Test Passed: ROC creates user: Auto2 Test2
+[2026-03-05 11:19:49] ERROR: User creation FAILED: roc1772689780531
+[2026-03-05 11:19:49] ERROR: Test Failed: ROC creates user: Auto Test
+[2026-03-05 11:19:49] INFO: Screenshot attached to Allure report
+[2026-03-05 11:41:20] INFO: Starting Test: First ROC Login
+[2026-03-05 11:41:20] INFO: Starting Test: ROC creates user: Auto Test
+[2026-03-05 11:41:20] INFO: Starting Test: ROC creates user: Auto2 Test2
+[2026-03-05 11:41:21] INFO: Starting login process
+[2026-03-05 11:41:22] INFO: Starting login process
+[2026-03-05 11:41:22] INFO: Starting login process
+[2026-03-05 11:41:23] INFO: Role selection popup appeared.
+[2026-03-05 11:41:23] INFO: Role selection popup appeared.
+[2026-03-05 11:41:24] INFO: ROC role selected and navigated to dashboard.
+[2026-03-05 11:41:24] INFO: Starting ROC user creation: roc1772691084105
+[2026-03-05 11:41:24] INFO: Role selection popup appeared.
+[2026-03-05 11:41:24] INFO: ROC role selected and navigated to dashboard.
+[2026-03-05 11:41:24] INFO: Starting Dashboard validation test
+[2026-03-05 11:41:24] INFO: ROC role selected and navigated to dashboard.
+[2026-03-05 11:41:24] INFO: Starting ROC user creation: roc1772691084790
+[2026-03-05 11:41:25] INFO: Dashboard heading is visible
+[2026-03-05 11:41:25] INFO: Starting logout process
+[2026-03-05 11:41:26] INFO: Logout successful
+[2026-03-05 11:41:26] INFO: Test Passed: First ROC Login
+[2026-03-05 11:41:32] ERROR: User creation FAILED: roc1772691084105
+[2026-03-05 11:41:32] ERROR: Test Failed: ROC creates user: Auto Test
+[2026-03-05 11:41:33] INFO: Screenshot attached to Allure report
+[2026-03-05 11:41:33] INFO: User creation SUCCESS: roc1772691084790
+[2026-03-05 11:41:34] INFO: Searching user with email: roc_1772691084790@test.com
+[2026-03-05 11:41:41] ERROR: Test Failed: ROC creates user: Auto2 Test2
+[2026-03-05 11:41:41] INFO: Screenshot attached to Allure report
+[2026-03-05 11:46:17] INFO: Starting Test: ROC creates user: Auto2 Test2
+[2026-03-05 11:46:17] INFO: Starting Test: ROC creates user: Auto Test
+[2026-03-05 11:46:17] INFO: Starting Test: First ROC Login
+[2026-03-05 11:46:18] INFO: Starting login process
+[2026-03-05 11:46:18] INFO: Starting login process
+[2026-03-05 11:46:18] INFO: Starting login process
+[2026-03-05 11:46:20] INFO: Role selection popup appeared.
+[2026-03-05 11:46:20] INFO: Role selection popup appeared.
+[2026-03-05 11:46:20] INFO: Role selection popup appeared.
+[2026-03-05 11:46:20] INFO: ROC role selected and navigated to dashboard.
+[2026-03-05 11:46:20] INFO: Starting ROC user creation: roc1772691380733
+[2026-03-05 11:46:21] INFO: ROC role selected and navigated to dashboard.
+[2026-03-05 11:46:21] INFO: ROC role selected and navigated to dashboard.
+[2026-03-05 11:46:21] INFO: Starting ROC user creation: roc1772691381206
+[2026-03-05 11:46:21] INFO: Starting Dashboard validation test
+[2026-03-05 11:46:23] INFO: Dashboard heading is visible
+[2026-03-05 11:46:23] INFO: Starting logout process
+[2026-03-05 11:46:24] INFO: Logout successful
+[2026-03-05 11:46:24] INFO: Test Passed: First ROC Login
+[2026-03-05 11:46:29] ERROR: User creation FAILED: roc1772691380733
+[2026-03-05 11:46:30] ERROR: Test Failed: ROC creates user: Auto Test
+[2026-03-05 11:46:30] INFO: Screenshot attached to Allure report
+[2026-03-05 11:46:31] INFO: User creation SUCCESS: roc1772691381206
+[2026-03-05 11:46:32] INFO: Searching user with email: roc_1772691381206@test.com
+[2026-03-05 11:46:33] INFO: User successfully found in table: roc_1772691381206@test.com
+[2026-03-05 11:46:33] INFO: Test Passed: ROC creates user: Auto2 Test2
+[2026-03-05 11:49:44] INFO: Starting Test: ROC creates user: Auto Test
+[2026-03-05 11:49:44] INFO: Starting Test: ROC creates user: Auto2 Test2
+[2026-03-05 11:49:44] INFO: Starting Test: First ROC Login
+[2026-03-05 11:49:45] INFO: Starting login process
+[2026-03-05 11:49:45] INFO: Starting login process
+[2026-03-05 11:49:45] INFO: Starting login process
+[2026-03-05 11:49:46] INFO: Role selection popup appeared.
+[2026-03-05 11:49:46] INFO: Role selection popup appeared.
+[2026-03-05 11:49:46] INFO: Role selection popup appeared.
+[2026-03-05 11:49:47] INFO: ROC role selected and navigated to dashboard.
+[2026-03-05 11:49:47] INFO: Starting ROC user creation: roc1772691587171
+[2026-03-05 11:49:47] INFO: ROC role selected and navigated to dashboard.
+[2026-03-05 11:49:47] INFO: Starting ROC user creation: roc1772691587189
+[2026-03-05 11:49:47] INFO: ROC role selected and navigated to dashboard.
+[2026-03-05 11:49:47] INFO: Starting Dashboard validation test
+[2026-03-05 11:49:48] INFO: Dashboard heading is visible
+[2026-03-05 11:49:48] INFO: Starting logout process
+[2026-03-05 11:49:49] INFO: Logout successful
+[2026-03-05 11:49:49] INFO: Test Passed: First ROC Login
+[2026-03-05 11:49:56] INFO: User creation SUCCESS: roc1772691587171
+[2026-03-05 11:49:56] ERROR: User creation FAILED: roc1772691587189
+[2026-03-05 11:49:56] ERROR: Test Failed: ROC creates user: Auto Test
+[2026-03-05 11:49:56] INFO: Screenshot attached to Allure report
+[2026-03-05 11:49:57] INFO: Searching user with email: roc_1772691587171@test.com
+[2026-03-05 11:49:58] INFO: User successfully found in table: roc_1772691587171@test.com
+[2026-03-05 11:49:58] INFO: Test Passed: ROC creates user: Auto2 Test2
+[2026-03-05 16:53:34] INFO: Starting Test: ROC creates user: Auto2 Test2
+[2026-03-05 16:53:34] INFO: Starting Test: ROC creates user: Auto Test
+[2026-03-05 16:53:34] INFO: Starting Test: First ROC Login
+[2026-03-05 16:53:38] INFO: Starting login process
+[2026-03-05 16:53:38] INFO: Starting login process
+[2026-03-05 16:53:38] INFO: Starting login process
+[2026-03-05 16:53:39] INFO: Role selection popup appeared.
+[2026-03-05 16:53:39] INFO: Role selection popup appeared.
+[2026-03-05 16:53:39] INFO: Role selection popup appeared.
+[2026-03-05 16:53:40] INFO: ROC role selected and navigated to dashboard.
+[2026-03-05 16:53:40] INFO: ROC role selected and navigated to dashboard.
+[2026-03-05 16:53:40] INFO: Starting ROC user creation: roc1772709820197
+[2026-03-05 16:53:40] INFO: Starting Dashboard validation test
+[2026-03-05 16:53:40] INFO: ROC role selected and navigated to dashboard.
+[2026-03-05 16:53:40] INFO: Starting ROC user creation: roc1772709820291
+[2026-03-05 16:53:41] INFO: Dashboard heading is visible
+[2026-03-05 16:53:41] INFO: Starting logout process
+[2026-03-05 16:53:41] INFO: Logout successful
+[2026-03-05 16:53:41] INFO: Test Passed: First ROC Login
+[2026-03-05 16:53:48] ERROR: User creation FAILED: roc1772709820197
+[2026-03-05 16:53:48] ERROR: Test Failed: ROC creates user: Auto Test
+[2026-03-05 16:53:48] INFO: User creation SUCCESS: roc1772709820291
+[2026-03-05 16:53:48] INFO: Screenshot attached to Allure report
+[2026-03-05 16:53:48] INFO: Searching user with email: roc_1772709820291@test.com
+[2026-03-05 16:53:50] INFO: User successfully found in table: roc_1772709820291@test.com
+[2026-03-05 16:53:50] INFO: Test Passed: ROC creates user: Auto2 Test2
+[2026-03-05 17:07:05] INFO: Starting Test: ROC creates user: Auto2 Test2
+[2026-03-05 17:07:05] INFO: Starting Test: ROC creates user: Auto Test
+[2026-03-05 17:07:05] INFO: Starting Test: First ROC Login
+[2026-03-05 17:07:09] INFO: Starting login process
+[2026-03-05 17:07:09] INFO: Starting login process
+[2026-03-05 17:07:09] INFO: Starting login process
+[2026-03-05 17:07:10] INFO: Role selection popup appeared.
+[2026-03-05 17:07:11] INFO: Role selection popup appeared.
+[2026-03-05 17:07:11] INFO: Role selection popup appeared.
+[2026-03-05 17:07:11] INFO: ROC role selected and navigated to dashboard.
+[2026-03-05 17:07:11] INFO: Starting ROC user creation: roc1772710631379
+[2026-03-05 17:07:11] INFO: ROC role selected and navigated to dashboard.
+[2026-03-05 17:07:11] INFO: Starting Dashboard validation test
+[2026-03-05 17:07:11] INFO: ROC role selected and navigated to dashboard.
+[2026-03-05 17:07:11] INFO: Starting ROC user creation: roc1772710631883
+[2026-03-05 17:07:12] INFO: Dashboard heading is visible
+[2026-03-05 17:07:12] INFO: Starting logout process
+[2026-03-05 17:07:13] INFO: Logout successful
+[2026-03-05 17:07:13] INFO: Test Passed: First ROC Login
+[2026-03-05 17:07:19] INFO: User creation SUCCESS: roc1772710631379
+[2026-03-05 17:07:19] ERROR: User creation FAILED: roc1772710631883
+[2026-03-05 17:07:19] INFO: Searching user with email: roc_1772710631379@test.com
+[2026-03-05 17:07:20] ERROR: Test Failed: ROC creates user: Auto Test
+[2026-03-05 17:07:20] INFO: Screenshot attached to Allure report
+[2026-03-05 17:07:22] INFO: User successfully found in table: roc_1772710631379@test.com
+[2026-03-05 17:07:22] INFO: Test Passed: ROC creates user: Auto2 Test2
+[2026-03-05 17:12:25] INFO: Starting Test: First ROC Login
+[2026-03-05 17:12:25] INFO: Starting Test: ROC creates user: Auto2 Test2
+[2026-03-05 17:12:25] INFO: Starting Test: ROC creates user: Auto Test
+[2026-03-05 17:12:26] INFO: Starting login process
+[2026-03-05 17:12:26] INFO: Starting login process
+[2026-03-05 17:12:26] INFO: Starting login process
+[2026-03-05 17:12:27] INFO: Role selection popup appeared.
+[2026-03-05 17:12:27] INFO: Role selection popup appeared.
+[2026-03-05 17:12:27] INFO: Role selection popup appeared.
+[2026-03-05 17:12:27] INFO: ROC role selected and navigated to dashboard.
+[2026-03-05 17:12:27] INFO: Starting Dashboard validation test
+[2026-03-05 17:12:27] INFO: ROC role selected and navigated to dashboard.
+[2026-03-05 17:12:27] INFO: Starting ROC user creation: roc1772710947916
+[2026-03-05 17:12:28] INFO: ROC role selected and navigated to dashboard.
+[2026-03-05 17:12:28] INFO: Starting ROC user creation: roc1772710948364
+[2026-03-05 17:12:29] INFO: Dashboard heading is visible
+[2026-03-05 17:12:29] INFO: Starting logout process
+[2026-03-05 17:12:29] INFO: Logout successful
+[2026-03-05 17:12:29] INFO: Test Passed: First ROC Login
+[2026-03-05 17:12:35] ERROR: User creation FAILED: roc1772710947916
+[2026-03-05 17:12:35] ERROR: Test Failed: ROC creates user: Auto Test
+[2026-03-05 17:12:35] INFO: Screenshot attached to Allure report
+[2026-03-05 17:12:36] INFO: User creation SUCCESS: roc1772710948364
+[2026-03-05 17:12:37] INFO: Searching user with email: roc_1772710948364@test.com
+[2026-03-05 17:12:38] INFO: User successfully found in table: roc_1772710948364@test.com
+[2026-03-05 17:12:38] INFO: Test Passed: ROC creates user: Auto2 Test2
+[2026-03-05 17:13:57] INFO: Starting Test: ROC creates user: Auto Test
+[2026-03-05 17:13:57] INFO: Starting Test: ROC creates user: Auto2 Test2
+[2026-03-05 17:13:57] INFO: Starting Test: First ROC Login
+[2026-03-05 17:13:58] INFO: Starting login process
+[2026-03-05 17:13:58] INFO: Starting login process
+[2026-03-05 17:13:59] INFO: Starting login process
+[2026-03-05 17:13:59] INFO: Role selection popup appeared.
+[2026-03-05 17:13:59] INFO: Role selection popup appeared.
+[2026-03-05 17:14:00] INFO: ROC role selected and navigated to dashboard.
+[2026-03-05 17:14:00] INFO: Starting ROC user creation: roc1772711040067
+[2026-03-05 17:14:00] INFO: Role selection popup appeared.
+[2026-03-05 17:14:00] INFO: ROC role selected and navigated to dashboard.
+[2026-03-05 17:14:00] INFO: Starting ROC user creation: roc1772711040432
+[2026-03-05 17:14:00] INFO: ROC role selected and navigated to dashboard.
+[2026-03-05 17:14:00] INFO: Starting Dashboard validation test
+[2026-03-05 17:14:01] INFO: Dashboard heading is visible
+[2026-03-05 17:14:01] INFO: Starting logout process
+[2026-03-05 17:14:02] INFO: Logout successful
+[2026-03-05 17:14:02] INFO: Test Passed: First ROC Login
+[2026-03-05 17:14:07] ERROR: User creation FAILED: roc1772711040067
+[2026-03-05 17:14:07] ERROR: Test Failed: ROC creates user: Auto Test
+[2026-03-05 17:14:08] INFO: User creation SUCCESS: roc1772711040432
+[2026-03-05 17:14:08] INFO: Screenshot attached to Allure report
+[2026-03-05 17:14:09] INFO: Searching user with email: roc_1772711040432@test.com
+[2026-03-05 17:14:10] INFO: User successfully found in table: roc_1772711040432@test.com
+[2026-03-05 17:14:10] INFO: Test Passed: ROC creates user: Auto2 Test2
+[2026-03-05 17:16:25] INFO: Starting Test: First ROC Login
+[2026-03-05 17:16:25] INFO: Starting Test: ROC creates user: Auto Test
+[2026-03-05 17:16:26] INFO: Starting Test: ROC creates user: Auto2 Test2
+[2026-03-05 17:16:26] INFO: Starting login process
+[2026-03-05 17:16:27] INFO: Starting login process
+[2026-03-05 17:16:27] INFO: Starting login process
+[2026-03-05 17:16:28] INFO: Role selection popup appeared.
+[2026-03-05 17:16:28] INFO: Role selection popup appeared.
+[2026-03-05 17:16:28] INFO: Role selection popup appeared.
+[2026-03-05 17:16:28] INFO: ROC role selected and navigated to dashboard.
+[2026-03-05 17:16:28] INFO: Starting Dashboard validation test
+[2026-03-05 17:16:28] INFO: ROC role selected and navigated to dashboard.
+[2026-03-05 17:16:28] INFO: Starting ROC user creation: roc1772711188676
+[2026-03-05 17:16:28] INFO: ROC role selected and navigated to dashboard.
+[2026-03-05 17:16:28] INFO: Starting ROC user creation: roc1772711188787
+[2026-03-05 17:16:29] INFO: Dashboard heading is visible
+[2026-03-05 17:16:29] INFO: Starting logout process
+[2026-03-05 17:16:30] INFO: Logout successful
+[2026-03-05 17:16:30] INFO: Test Passed: First ROC Login
+[2026-03-05 17:16:36] INFO: User creation SUCCESS: roc1772711188676
+[2026-03-05 17:16:36] ERROR: User creation FAILED: roc1772711188787
+[2026-03-05 17:16:36] ERROR: Test Failed: ROC creates user: Auto Test
+[2026-03-05 17:16:36] INFO: Screenshot attached to Allure report
+[2026-03-05 17:16:38] INFO: Searching user with email: roc_1772711188676@test.com
+[2026-03-05 17:16:39] INFO: User successfully found in table: roc_1772711188676@test.com
+[2026-03-05 17:16:39] INFO: Test Passed: ROC creates user: Auto2 Test2
+[2026-03-05 17:21:50] INFO: Starting Test: First ROC Login
+[2026-03-05 17:21:50] INFO: Starting Test: ROC creates user: Auto Test
+[2026-03-05 17:21:50] INFO: Starting Test: ROC creates user: Auto2 Test2
+[2026-03-05 17:21:51] INFO: Starting login process
+[2026-03-05 17:21:51] INFO: Starting login process
+[2026-03-05 17:21:51] INFO: Starting login process
+[2026-03-05 17:21:53] INFO: Role selection popup appeared.
+[2026-03-05 17:21:53] INFO: Role selection popup appeared.
+[2026-03-05 17:21:53] INFO: Role selection popup appeared.
+[2026-03-05 17:21:53] INFO: ROC role selected and navigated to dashboard.
+[2026-03-05 17:21:53] INFO: Starting ROC user creation: roc1772711513777
+[2026-03-05 17:21:54] INFO: ROC role selected and navigated to dashboard.
+[2026-03-05 17:21:54] INFO: Starting Dashboard validation test
+[2026-03-05 17:21:54] INFO: ROC role selected and navigated to dashboard.
+[2026-03-05 17:21:54] INFO: Starting ROC user creation: roc1772711514181
+[2026-03-05 17:21:54] INFO: Dashboard heading is visible
+[2026-03-05 17:21:54] INFO: Starting logout process
+[2026-03-05 17:21:55] INFO: Logout successful
+[2026-03-05 17:21:55] INFO: Test Passed: First ROC Login
+[2026-03-05 17:22:01] ERROR: User creation FAILED: roc1772711513777
+[2026-03-05 17:22:01] ERROR: Test Failed: ROC creates user: Auto Test
+[2026-03-05 17:22:01] INFO: Screenshot attached to Allure report
+[2026-03-05 17:22:01] INFO: User creation SUCCESS: roc1772711514181
+[2026-03-05 17:22:03] INFO: Searching user with email: roc_1772711514181@test.com
+[2026-03-05 17:22:04] INFO: User successfully found in table: roc_1772711514181@test.com
+[2026-03-05 17:22:04] INFO: Test Passed: ROC creates user: Auto2 Test2
+[2026-03-05 17:28:35] INFO: Starting Test: ROC creates user: Auto2 Test2
+[2026-03-05 17:28:35] INFO: Starting Test: First ROC Login
+[2026-03-05 17:28:35] INFO: Starting Test: ROC creates user: Auto Test
+[2026-03-05 17:28:36] INFO: Starting login process
+[2026-03-05 17:28:36] INFO: Starting login process
+[2026-03-05 17:28:36] INFO: Starting login process
+[2026-03-05 17:28:37] INFO: Role selection popup appeared.
+[2026-03-05 17:28:37] INFO: Role selection popup appeared.
+[2026-03-05 17:28:37] INFO: Role selection popup appeared.
+[2026-03-05 17:28:38] INFO: ROC role selected and navigated to dashboard.
+[2026-03-05 17:28:38] INFO: Starting Dashboard validation test
+[2026-03-05 17:28:38] INFO: ROC role selected and navigated to dashboard.
+[2026-03-05 17:28:38] INFO: Starting ROC user creation: roc1772711918088
+[2026-03-05 17:28:38] INFO: ROC role selected and navigated to dashboard.
+[2026-03-05 17:28:38] INFO: Starting ROC user creation: roc1772711918446
+[2026-03-05 17:28:39] INFO: Dashboard heading is visible
+[2026-03-05 17:28:39] INFO: Starting logout process
+[2026-03-05 17:28:39] INFO: Logout successful
+[2026-03-05 17:28:39] INFO: Test Passed: First ROC Login
+[2026-03-05 17:28:45] ERROR: User creation FAILED: roc1772711918088
+[2026-03-05 17:28:46] ERROR: Test Failed: ROC creates user: Auto Test
+[2026-03-05 17:28:46] INFO: Screenshot attached to Allure report
+[2026-03-05 17:28:46] INFO: User creation SUCCESS: roc1772711918446
+[2026-03-05 17:28:47] INFO: Searching user with email: roc_1772711918446@test.com
+[2026-03-05 17:28:48] INFO: User successfully found in table: roc_1772711918446@test.com
+[2026-03-05 17:28:48] INFO: Test Passed: ROC creates user: Auto2 Test2
+[2026-03-05 18:01:39] INFO: Starting Test: ROC creates user: Auto Test
+[2026-03-05 18:01:39] INFO: Starting Test: First ROC Login
+[2026-03-05 18:01:39] INFO: Starting Test: ROC creates user: Auto2 Test2
+[2026-03-05 18:01:42] INFO: Starting login process
+[2026-03-05 18:01:42] INFO: Starting login process
+[2026-03-05 18:01:42] INFO: Starting login process
+[2026-03-05 18:01:44] INFO: Role selection popup appeared.
+[2026-03-05 18:01:44] INFO: Role selection popup appeared.
+[2026-03-05 18:01:44] INFO: Role selection popup appeared.
+[2026-03-05 18:01:44] INFO: ROC role selected and navigated to dashboard.
+[2026-03-05 18:01:44] INFO: Starting Dashboard validation test
+[2026-03-05 18:01:44] INFO: ROC role selected and navigated to dashboard.
+[2026-03-05 18:01:44] INFO: Starting ROC user creation: roc1772713904649
+[2026-03-05 18:01:44] INFO: ROC role selected and navigated to dashboard.
+[2026-03-05 18:01:44] INFO: Starting ROC user creation: roc1772713904665
+[2026-03-05 18:01:45] INFO: Dashboard heading is visible
+[2026-03-05 18:01:45] INFO: Starting logout process
+[2026-03-05 18:01:46] INFO: Logout successful
+[2026-03-05 18:01:46] INFO: Test Passed: First ROC Login
+[2026-03-05 18:01:52] ERROR: User creation FAILED: roc1772713904649
+[2026-03-05 18:01:52] INFO: User creation SUCCESS: roc1772713904665
+[2026-03-05 18:01:52] ERROR: Test Failed: ROC creates user: Auto Test
+[2026-03-05 18:01:52] INFO: Screenshot attached to Allure report
+[2026-03-05 18:01:54] INFO: Searching user with email: roc_1772713904665@test.com
+[2026-03-05 18:01:55] INFO: User successfully found in table: roc_1772713904665@test.com
+[2026-03-05 18:01:55] INFO: Test Passed: ROC creates user: Auto2 Test2
+[2026-03-05 18:09:15] INFO: Starting Test: ROC creates user: Auto Test
+[2026-03-05 18:09:15] INFO: Starting Test: First ROC Login
+[2026-03-05 18:09:15] INFO: Starting Test: ROC creates user: Auto2 Test2
+[2026-03-05 18:09:19] INFO: Starting login process
+[2026-03-05 18:09:19] INFO: Starting login process
+[2026-03-05 18:09:19] INFO: Starting login process
+[2026-03-05 18:09:20] INFO: Role selection popup appeared.
+[2026-03-05 18:09:20] INFO: Role selection popup appeared.
+[2026-03-05 18:09:20] INFO: ROC role selected and navigated to dashboard.
+[2026-03-05 18:09:20] INFO: Starting ROC user creation: roc1772714360759
+[2026-03-05 18:09:20] INFO: ROC role selected and navigated to dashboard.
+[2026-03-05 18:09:20] INFO: Starting Dashboard validation test
+[2026-03-05 18:09:20] INFO: Role selection popup appeared.
+[2026-03-05 18:09:21] INFO: ROC role selected and navigated to dashboard.
+[2026-03-05 18:09:21] INFO: Starting ROC user creation: roc1772714361442
+[2026-03-05 18:09:21] INFO: Dashboard heading is visible
+[2026-03-05 18:09:21] INFO: Starting logout process
+[2026-03-05 18:09:22] INFO: Logout successful
+[2026-03-05 18:09:22] INFO: Test Passed: First ROC Login
+[2026-03-05 18:09:28] INFO: User creation SUCCESS: roc1772714360759
+[2026-03-05 18:09:28] ERROR: User creation FAILED: roc1772714361442
+[2026-03-05 18:09:29] ERROR: Test Failed: ROC creates user: Auto Test
+[2026-03-05 18:09:29] INFO: Screenshot attached to Allure report
+[2026-03-05 18:09:29] INFO: Searching user with email: roc_1772714360759@test.com
+[2026-03-05 18:09:30] INFO: User successfully found in table: roc_1772714360759@test.com
+[2026-03-05 18:09:30] INFO: Test Passed: ROC creates user: Auto2 Test2
+[2026-03-05 18:11:24] INFO: Starting Test: ROC creates user: Auto2 Test2
+[2026-03-05 18:11:24] INFO: Starting Test: First ROC Login
+[2026-03-05 18:11:24] INFO: Starting Test: ROC creates user: Auto Test
+[2026-03-05 18:11:25] INFO: Starting login process
+[2026-03-05 18:11:25] INFO: Starting login process
+[2026-03-05 18:11:26] INFO: Starting login process
+[2026-03-05 18:11:26] INFO: Role selection popup appeared.
+[2026-03-05 18:11:27] INFO: Role selection popup appeared.
+[2026-03-05 18:11:27] INFO: ROC role selected and navigated to dashboard.
+[2026-03-05 18:11:27] INFO: Starting ROC user creation: roc1772714487385
+[2026-03-05 18:11:27] INFO: ROC role selected and navigated to dashboard.
+[2026-03-05 18:11:27] INFO: Starting ROC user creation: roc1772714487573
+[2026-03-05 18:11:27] INFO: Role selection popup appeared.
+[2026-03-05 18:11:28] INFO: ROC role selected and navigated to dashboard.
+[2026-03-05 18:11:28] INFO: Starting Dashboard validation test
+[2026-03-05 18:11:29] INFO: Dashboard heading is visible
+[2026-03-05 18:11:29] INFO: Starting logout process
+[2026-03-05 18:11:30] INFO: Logout successful
+[2026-03-05 18:11:30] INFO: Test Passed: First ROC Login
+[2026-03-05 18:11:35] ERROR: User creation FAILED: roc1772714487385
+[2026-03-05 18:11:35] ERROR: Test Failed: ROC creates user: Auto Test
+[2026-03-05 18:11:35] INFO: User creation SUCCESS: roc1772714487573
+[2026-03-05 18:11:35] INFO: Screenshot attached to Allure report
+[2026-03-05 18:11:36] INFO: Searching user with email: roc_1772714487573@test.com
+[2026-03-05 18:11:37] INFO: User successfully found in table: roc_1772714487573@test.com
+[2026-03-05 18:11:37] INFO: Test Passed: ROC creates user: Auto2 Test2
+[2026-03-05 18:20:21] INFO: Starting Test: First ROC Login
+[2026-03-05 18:20:21] INFO: Starting Test: ROC creates user: Auto2 Test2
+[2026-03-05 18:20:21] INFO: Starting Test: ROC creates user: Auto Test
+[2026-03-05 18:20:25] INFO: Starting login process
+[2026-03-05 18:20:25] INFO: Starting login process
+[2026-03-05 18:20:25] INFO: Starting login process
+[2026-03-05 18:20:26] INFO: Role selection popup appeared.
+[2026-03-05 18:20:26] INFO: Role selection popup appeared.
+[2026-03-05 18:20:26] INFO: Role selection popup appeared.
+[2026-03-05 18:20:26] INFO: ROC role selected and navigated to dashboard.
+[2026-03-05 18:20:26] INFO: Starting ROC user creation: roc1772715026980
+[2026-03-05 18:20:27] INFO: ROC role selected and navigated to dashboard.
+[2026-03-05 18:20:27] INFO: Starting Dashboard validation test
+[2026-03-05 18:20:27] INFO: ROC role selected and navigated to dashboard.
+[2026-03-05 18:20:27] INFO: Starting ROC user creation: roc1772715027135
+[2026-03-05 18:20:28] INFO: Dashboard heading is visible
+[2026-03-05 18:20:28] INFO: Starting logout process
+[2026-03-05 18:20:29] INFO: Logout successful
+[2026-03-05 18:20:29] INFO: Test Passed: First ROC Login
+[2026-03-05 18:20:34] ERROR: User creation FAILED: roc1772715026980
+[2026-03-05 18:20:34] ERROR: Test Failed: ROC creates user: Auto Test
+[2026-03-05 18:20:34] INFO: Screenshot attached to Allure report
+[2026-03-05 18:20:35] INFO: User creation SUCCESS: roc1772715027135
+[2026-03-05 18:20:36] INFO: Searching user with email: roc_1772715027135@test.com
+[2026-03-05 18:20:37] INFO: User successfully found in table: roc_1772715027135@test.com
+[2026-03-05 18:20:37] INFO: Test Passed: ROC creates user: Auto2 Test2
+[2026-03-05 18:22:48] INFO: Starting Test: ROC creates user: Auto Test
+[2026-03-05 18:22:48] INFO: Starting Test: ROC creates user: Auto2 Test2
+[2026-03-05 18:22:48] INFO: Starting Test: First ROC Login
+[2026-03-05 18:22:48] INFO: Starting login process
+[2026-03-05 18:22:49] INFO: Starting login process
+[2026-03-05 18:22:49] INFO: Starting login process
+[2026-03-05 18:22:50] INFO: Role selection popup appeared.
+[2026-03-05 18:22:50] INFO: Role selection popup appeared.
+[2026-03-05 18:22:50] INFO: Role selection popup appeared.
+[2026-03-05 18:22:50] INFO: ROC role selected and navigated to dashboard.
+[2026-03-05 18:22:50] INFO: Starting ROC user creation: roc1772715170706
+[2026-03-05 18:22:51] INFO: ROC role selected and navigated to dashboard.
+[2026-03-05 18:22:51] INFO: Starting ROC user creation: roc1772715171048
+[2026-03-05 18:22:51] INFO: ROC role selected and navigated to dashboard.
+[2026-03-05 18:22:51] INFO: Starting Dashboard validation test
+[2026-03-05 18:22:52] INFO: Dashboard heading is visible
+[2026-03-05 18:22:52] INFO: Starting logout process
+[2026-03-05 18:22:52] INFO: Logout successful
+[2026-03-05 18:22:52] INFO: Test Passed: First ROC Login
+[2026-03-05 18:22:58] INFO: User creation SUCCESS: roc1772715170706
+[2026-03-05 18:22:58] ERROR: User creation FAILED: roc1772715171048
+[2026-03-05 18:22:58] ERROR: Test Failed: ROC creates user: Auto Test
+[2026-03-05 18:22:58] INFO: Screenshot attached to Allure report
+[2026-03-05 18:23:00] INFO: Searching user with email: roc_1772715170706@test.com
+[2026-03-05 18:23:01] INFO: User successfully found in table: roc_1772715170706@test.com
+[2026-03-05 18:23:01] INFO: Test Passed: ROC creates user: Auto2 Test2
