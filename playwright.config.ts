@@ -1,26 +1,18 @@
 import { defineConfig } from '@playwright/test';
-import dotenv from 'dotenv';
-
-// Get environment from command line
-const env = process.env.ENV || 'qa';
-
-// Load correct env file
-dotenv.config({ path: `.env.${env}` });
 
 export default defineConfig({
+  globalSetup: require.resolve('./global-setup'),
+  
   testDir: './tests',
-
   fullyParallel: true,
   retries: 0,
   workers: 3,
-
   reporter: [
     ['html'],
     ['junit', { outputFile: 'test-results/results.xml' }],
     ['list'],
     ['allure-playwright']
   ],
-
   use: {
     baseURL: process.env.BASE_URL,
     headless: true,
@@ -28,14 +20,14 @@ export default defineConfig({
     video: 'retain-on-failure',
     trace: 'retain-on-failure',
     launchOptions: {
-      slowMo: 500,
+      slowMo: 200, // simulate human typing
+      args: [
+        '--disable-autofill-keyboard-accessory-view',
+        '--disable-password-manager-reauthentication'
+      ],
     },
   },
-
   projects: [
-    {
-      name: 'chromium',
-      use: { browserName: 'chromium' },
-    },
+    { name: 'chromium', use: { browserName: 'chromium' } },
   ],
 });

@@ -1,6 +1,0 @@
-[2026-02-27 17:56:51] INFO: Starting Test: After login Dashboard visible @smoke
-[2026-02-27 17:56:54] INFO: Starting login process
-[2026-02-27 17:56:57] INFO: Login successful - Dashboard loaded
-[2026-02-27 17:56:57] INFO: Starting Dashboard validation test
-[2026-02-27 17:56:57] INFO: Dashboard heading is visible
-[2026-02-27 17:56:57] INFO: Test Passed: After login Dashboard visible @smoke

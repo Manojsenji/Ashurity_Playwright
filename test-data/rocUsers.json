@@ -1,0 +1,32 @@
+[
+  {
+    "firstName": "Auto",
+    "lastName": "Test",
+    "mobile1": "9876543210",
+    "mobile2": "9876543211",
+    "city": "",
+    "state": "Karnataka",
+    "country": "India",
+    "addressL1": "Address 1",
+    "addressL2": "Address 2",
+    "pincode": "560001",
+    "dob": "1995-01-01",
+    "gender": "Male",
+    "organization": "Ashurity"
+  },
+  {
+    "firstName": "Auto2",
+    "lastName": "Test2",
+    "mobile1": "9876543212",
+    "mobile2": "9876543213",
+    "city": "Bangalore",
+    "state": "Karnataka",
+    "country": "India",
+    "addressL1": "Address 3",
+    "addressL2": "Address 4",
+    "pincode": "560002",
+    "dob": "1996-02-02",
+    "gender": "Female",
+    "organization": "Ashurity"
+  }
+]
