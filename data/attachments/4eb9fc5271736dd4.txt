@@ -1,0 +1,9 @@
+[2026-03-06 07:23:55] INFO: Starting Test: First ROC Login
+[2026-03-06 07:23:59] INFO: Starting login process
+[2026-03-06 07:24:02] INFO: Role selection popup appeared.
+[2026-03-06 07:24:03] INFO: ROC role selected and navigated to dashboard.
+[2026-03-06 07:24:03] INFO: Starting Dashboard validation test
+[2026-03-06 07:24:04] INFO: Dashboard heading is visible
+[2026-03-06 07:24:04] INFO: Starting logout process
+[2026-03-06 07:24:06] INFO: Logout successful
+[2026-03-06 07:24:06] INFO: Test Passed: First ROC Login
