@@ -29,7 +29,7 @@ jobs:
           node-version: 20
 
       - name: Install Dependencies
-        run: npm install
+        run: npm ci
 
       - name: Install Playwright Browsers
         run: npx playwright install --with-deps
@@ -37,24 +37,24 @@ jobs:
       - name: Install Allure
         run: npm install -g allure-commandline
 
-      # Run Tests
-      - name: Run Playwright Tests
-        run: npx playwright test
-
-      # Clone gh-pages to get previous history
+      # Get previous Allure history BEFORE running tests
       - name: Get Previous Allure History
         run: |
           git clone --depth=1 --branch gh-pages https://github.com/${{ github.repository }}.git gh-pages || echo "No gh-pages branch yet"
 
           if [ -d "gh-pages/history" ]; then
-            echo "Copying previous Allure history..."
+            echo "Copying previous history..."
             mkdir -p allure-results/history
             cp -r gh-pages/history/* allure-results/history
           else
             echo "No previous history found"
           fi
 
-      # Generate new report
+      # Run Tests
+      - name: Run Playwright Tests
+        run: npx playwright test
+
+      # Generate Allure Report
       - name: Generate Allure Report
         if: always()
         run: |
@@ -64,7 +64,7 @@ jobs:
             echo "No allure-results found"
           fi
 
-      # Upload Allure report as artifact
+      # Upload Allure report
       - name: Upload Allure Report
         uses: actions/upload-artifact@v4
         if: always()
@@ -80,7 +80,7 @@ jobs:
           name: playwright-report
           path: playwright-report
 
-      # Deploy Allure report to GitHub Pages
+      # Deploy Allure report
       - name: Deploy Allure Report to GitHub Pages
         if: always()
         uses: peaceiris/actions-gh-pages@v4
