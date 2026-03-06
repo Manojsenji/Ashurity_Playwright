@@ -1,0 +1,15 @@
+[2026-03-06 10:53:39] INFO: Starting Test: ROC creates user: Auto2 Test2
+[2026-03-06 10:53:42] INFO: Starting login process
+[2026-03-06 10:53:46] INFO: Role selection popup appeared.
+[2026-03-06 10:53:47] INFO: ROC role selected and navigated to dashboard.
+[2026-03-06 10:53:47] INFO: Starting ROC user creation: roc1772794427286
+Waiting for Role Management button...
+Clicking Role Management...
+Navigated to account page.
+[2026-03-06 10:53:57] INFO: User creation SUCCESS: roc1772794427286
+Waiting for Role Management button...
+Clicking Role Management...
+Navigated to account page.
+[2026-03-06 10:53:57] INFO: Searching user with email: roc_1772794427286@test.com
+[2026-03-06 10:54:04] ERROR: Test Failed: ROC creates user: Auto2 Test2
+[2026-03-06 10:54:04] INFO: Screenshot attached to Allure report
