@@ -6,7 +6,7 @@ export default defineConfig({
   testDir: "./tests",
   fullyParallel: true,
   retries: 0,
-  workers: 3,
+  workers: 1,
   reporter: [
     ["html", { open: "never" }],
     ["junit", { outputFile: "test-results/results.xml" }],

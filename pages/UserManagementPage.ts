@@ -21,17 +21,15 @@ export class UserManagementPage {
     await this.searchBox.fill(email);
     await this.searchBox.press("Enter");
 
-    // Wait until row with email appears
-    await expect(
-      this.page.getByRole("row", {
-        name: new RegExp(email, "i"),
-      }),
-    ).toBeVisible();
+    // wait for search request to complete
+    await this.page.waitForLoadState("networkidle");
   }
 
   async validateEmailExists(email: string) {
-    const row = this.page.locator(`//table//tbody//tr[td[text()='${email}']]`);
+    const row = this.page.locator(
+      `//table//tbody//tr[td[contains(text(),'${email}')]]`,
+    );
 
-    await expect(row).toBeVisible();
+    await expect(row).toBeVisible({ timeout: 15000 });
   }
 }

@@ -6,6 +6,9 @@ import { UserManagementPage } from "../../../pages/UserManagementPage";
 import rocUsers from "../../../test-data/rocUsers.json";
 import { logger } from "../../../utils/logger";
 
+test.describe("ROC User Creation", () => {
+  test.describe.configure({ mode: "serial" });
+
 rocUsers.forEach((user) => {
   test(`ROC creates user: ${user.firstName} ${user.lastName}`, async ({
     loggedInPage,
@@ -58,3 +61,4 @@ rocUsers.forEach((user) => {
     logger.info(`User successfully found in table: ${rocData.email}`);
   });
 });
+}); 
