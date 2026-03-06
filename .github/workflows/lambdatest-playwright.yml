@@ -40,6 +40,15 @@ jobs:
       - name: Run Playwright Tests
         run: npx playwright test
 
+         # Download previous report from gh-pages
+      - name: Get previous Allure history
+        run: |
+          git clone https://github.com/${{ github.repository }}.git gh-pages --branch gh-pages || true
+          if [ -d "gh-pages/history" ]; then
+            mkdir -p allure-results/history
+            cp -r gh-pages/history/* allure-results/history
+          fi
+
       - name: Generate Allure Report
         if: always()
         run: |
