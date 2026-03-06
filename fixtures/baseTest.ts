@@ -26,7 +26,10 @@ export const test = base.extend<MyFixtures>({
 
     logger.info(`Starting Test: ${testInfo.title}`);
 
-    await page.goto("/");
+    //await page.goto("/");
+    await page.goto(
+      process.env.BASE_URL || "https://dev.ashurityhealth.com/login",
+    );
 
     const login = new LoginPage(page);
     await login.login(process.env.USERNAME!, process.env.PASSWORD!);
