@@ -1,0 +1,275 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - complementary [ref=e5]:
+      - img "logo" [ref=e7]
+      - navigation [ref=e8]:
+        - link "Dashboard" [ref=e9] [cursor=pointer]:
+          - /url: /dashboard/roc/2
+          - generic [ref=e10]:
+            - img [ref=e11]
+            - generic [ref=e13]: Dashboard
+        - link "Role Management" [ref=e14] [cursor=pointer]:
+          - /url: /account
+          - generic [ref=e15]:
+            - img [ref=e16]
+            - generic [ref=e18]: Role Management
+        - link "Role Mapping" [ref=e19] [cursor=pointer]:
+          - /url: /userMapping
+          - generic [ref=e20]:
+            - img [ref=e21]
+            - generic [ref=e23]: Role Mapping
+        - link "Video Consulting" [ref=e24] [cursor=pointer]:
+          - /url: /videoconference
+          - generic [ref=e25]:
+            - img [ref=e26]
+            - generic [ref=e28]: Video Consulting
+      - paragraph [ref=e30]: "@Build Version : 66"
+    - generic [ref=e31]:
+      - banner [ref=e32]:
+        - generic [ref=e34]:
+          - generic [ref=e39]:
+            - img [ref=e40]
+            - heading "ROC" [level=6] [ref=e52]
+          - generic [ref=e53]:
+            - img [ref=e54]
+            - heading [level=6]
+        - generic [ref=e60]:
+          - button [ref=e61]:
+            - img [ref=e62]
+          - heading "Role Management" [level=2] [ref=e67]
+        - generic [ref=e68]:
+          - navigation [ref=e69]:
+            - generic [ref=e71] [cursor=pointer]:
+              - img [ref=e72]
+              - text: Entities
+              - img [ref=e75]
+            - generic [ref=e78] [cursor=pointer]:
+              - text: Select SOC
+              - img [ref=e79]
+            - generic [ref=e82] [cursor=pointer]:
+              - text: "Change Role:"
+              - img [ref=e83]
+          - generic [ref=e87]:
+            - img [ref=e88] [cursor=pointer]
+            - generic [ref=e90]: "9"
+          - img [ref=e93] [cursor=pointer]
+          - generic [ref=e96]:
+            - generic [ref=e97]: ROC34
+            - img "Profile" [ref=e98]
+      - main [ref=e99]:
+        - generic [ref=e100]:
+          - generic [ref=e101]:
+            - button "Back" [ref=e102] [cursor=pointer]
+            - heading "Create an Account" [level=2] [ref=e103]
+          - group "Select your role:" [ref=e105]:
+            - generic [ref=e106]: "Select your role:"
+            - radiogroup [ref=e107]:
+              - generic [ref=e108] [cursor=pointer]:
+                - generic [ref=e109]:
+                  - radio "ROC" [checked] [ref=e110]
+                  - generic [ref=e111]:
+                    - img [ref=e112]
+                    - img [ref=e114]
+                - generic [ref=e116]: ROC
+              - generic [ref=e117] [cursor=pointer]:
+                - generic [ref=e118]:
+                  - radio "SOC" [ref=e119]
+                  - img [ref=e121]
+                - generic [ref=e123]: SOC
+              - generic [ref=e124] [cursor=pointer]:
+                - generic [ref=e125]:
+                  - radio "Doctor" [ref=e126]
+                  - img [ref=e128]
+                - generic [ref=e130]: Doctor
+              - generic [ref=e131] [cursor=pointer]:
+                - generic [ref=e132]:
+                  - radio "Care Taker" [ref=e133]
+                  - img [ref=e135]
+                - generic [ref=e137]: Care Taker
+              - generic [ref=e138] [cursor=pointer]:
+                - generic [ref=e139]:
+                  - radio "Laboratory professional" [ref=e140]
+                  - img [ref=e142]
+                - generic [ref=e144]: Laboratory professional
+              - generic [ref=e145] [cursor=pointer]:
+                - generic [ref=e146]:
+                  - radio "Paramedic" [ref=e147]
+                  - img [ref=e149]
+                - generic [ref=e151]: Paramedic
+              - generic [ref=e152] [cursor=pointer]:
+                - generic [ref=e153]:
+                  - radio "Pharmacist" [ref=e154]
+                  - img [ref=e156]
+                - generic [ref=e158]: Pharmacist
+          - generic [ref=e159]:
+            - generic [ref=e161]:
+              - generic [ref=e162]:
+                - text: User Name
+                - generic [ref=e163]: "*"
+              - generic [ref=e164]:
+                - textbox "User Name" [ref=e165]: roc1772780301909
+                - img [ref=e167]
+                - group:
+                  - generic: User Name *
+            - generic [ref=e170]:
+              - generic [ref=e171]:
+                - text: First Name
+                - generic [ref=e172]: "*"
+              - generic [ref=e173]:
+                - textbox "First Name" [ref=e174]: Auto
+                - img [ref=e176]
+                - group:
+                  - generic: First Name *
+            - generic [ref=e179]:
+              - generic [ref=e180]:
+                - text: Last Name
+                - generic [ref=e181]: "*"
+              - generic [ref=e182]:
+                - textbox "Last Name" [ref=e183]: Test
+                - img [ref=e185]
+                - group:
+                  - generic: Last Name *
+            - generic [ref=e188]:
+              - generic [ref=e189]: "*"
+              - generic [ref=e190]:
+                - textbox "1 (702) 123-4567" [ref=e191]: +91 98765-43210
+                - 'button "India: + 91" [ref=e193]'
+              - img [ref=e196]
+            - generic [ref=e199]:
+              - generic [ref=e200]:
+                - textbox "1 (702) 123-4567" [ref=e201]: +91 98765-43211
+                - 'button "India: + 91" [ref=e203]'
+              - img [ref=e206]
+            - generic [ref=e209]:
+              - generic [ref=e210]:
+                - text: Email ID
+                - generic [ref=e211]: "*"
+              - generic [ref=e212]:
+                - textbox "Email ID" [ref=e213]: roc_1772780301909@test.com
+                - img [ref=e215]
+                - group:
+                  - generic: Email ID *
+            - generic [ref=e218]:
+              - generic [ref=e219]:
+                - text: Address Line1
+                - generic [ref=e220]: "*"
+              - generic [ref=e221]:
+                - textbox "Address Line1" [ref=e222]: Address 1
+                - img [ref=e224]
+                - group:
+                  - generic: Address Line1 *
+            - generic [ref=e227]:
+              - generic [ref=e228]:
+                - text: Address Line2
+                - generic [ref=e229]: "*"
+              - generic [ref=e230]:
+                - textbox "Address Line2" [ref=e231]: Address 2
+                - img [ref=e233]
+                - group:
+                  - generic: Address Line2 *
+            - generic [ref=e236]:
+              - generic:
+                - text: City
+                - generic: "*"
+              - generic [ref=e237]:
+                - textbox "City" [ref=e238]
+                - img [ref=e240]
+                - group:
+                  - generic: City *
+              - paragraph [ref=e242]: City is required
+            - generic [ref=e244]:
+              - generic [ref=e245]:
+                - text: State
+                - generic [ref=e246]: "*"
+              - generic [ref=e247]:
+                - textbox "State" [ref=e248]: Karnataka
+                - img [ref=e250]
+                - group:
+                  - generic: State *
+            - generic [ref=e255]:
+              - generic [ref=e256]:
+                - text: Country
+                - generic [ref=e257]: "*"
+              - generic [ref=e258]:
+                - combobox "Country" [ref=e259]: India
+                - button "Open" [ref=e261] [cursor=pointer]:
+                  - img [ref=e262]
+                - img [ref=e264]
+                - group:
+                  - generic: Country *
+            - generic [ref=e267]:
+              - generic [ref=e268]:
+                - text: Pin code
+                - generic [ref=e269]: "*"
+              - generic [ref=e270]:
+                - textbox "Pin code" [ref=e271]: "560001"
+                - img [ref=e273]
+                - group:
+                  - generic: Pin code *
+            - generic [ref=e276]:
+              - generic [ref=e277]:
+                - text: Gender
+                - generic [ref=e278]: "*"
+              - generic [ref=e279]:
+                - combobox "Gender Male" [ref=e280] [cursor=pointer]: Male
+                - textbox: MALE
+                - img
+                - img [ref=e282]
+                - group:
+                  - generic: Gender *
+            - generic [ref=e285]:
+              - generic [ref=e286]:
+                - text: Date Of Birth
+                - generic [ref=e287]: "*"
+              - generic [ref=e288]:
+                - textbox "Date Of Birth" [ref=e289]: 1995-01-01
+                - group:
+                  - generic: Date Of Birth *
+            - generic [ref=e291]:
+              - generic [ref=e292]: Age
+              - generic [ref=e293]:
+                - textbox "Age" [ref=e294]: "31"
+                - img [ref=e296]
+                - group:
+                  - generic: Age
+            - generic [ref=e299]:
+              - generic [ref=e300]:
+                - text: Employee Number
+                - generic [ref=e301]: "*"
+              - generic [ref=e302]:
+                - textbox "Employee Number" [ref=e303]: EMP_1772780301909
+                - img [ref=e305]
+                - group:
+                  - generic: Employee Number *
+            - generic [ref=e308]:
+              - generic [ref=e309]:
+                - text: Organization
+                - generic [ref=e310]: "*"
+              - generic [ref=e311]:
+                - textbox "Organization" [ref=e312]: Ashurity
+                - img [ref=e314]
+                - group:
+                  - generic: Organization *
+            - group "Certified ROC" [ref=e317]:
+              - generic [ref=e318]:
+                - text: Certified ROC
+                - generic [ref=e319]: "*"
+              - radiogroup [ref=e320]:
+                - generic [ref=e321] [cursor=pointer]:
+                  - generic [ref=e322]:
+                    - radio "Yes" [checked] [ref=e323]
+                    - generic [ref=e324]:
+                      - img [ref=e325]
+                      - img [ref=e327]
+                  - generic [ref=e329]: "Yes"
+                - generic [ref=e330] [cursor=pointer]:
+                  - generic [ref=e331]:
+                    - radio "No" [ref=e332]
+                    - img [ref=e334]
+                  - generic [ref=e336]: "No"
+          - button "Register as ROC" [active] [ref=e338] [cursor=pointer]: Register as ROC
+  - alert [ref=e339]: Healthcare Dashboard
+```
