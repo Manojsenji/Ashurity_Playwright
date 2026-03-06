@@ -2,30 +2,34 @@ name: LambdaTest Playwright
 
 on:
   push:
-    branches:
-      - main
+    branches: [ main ]
   workflow_dispatch:
 
 jobs:
-  playwright:
+  test:
     runs-on: ubuntu-latest
 
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
+    env:
+      USERNAME: ${{ secrets.USERNAME }}
+      PASSWORD: ${{ secrets.PASSWORD }}
+      BASE_URL: ${{ secrets.BASE_URL }}
+      LT_USERNAME: ${{ secrets.LT_USERNAME }}
+      LT_ACCESS_KEY: ${{ secrets.LT_ACCESS_KEY }}
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v3
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: 20
 
       - name: Install dependencies
         run: npm install
 
-      - name: Run Playwright tests on LambdaTest
-        env:
-          LAMBDA_USERNAME: ${{ secrets.LAMBDA_USERNAME }}
-          LAMBDA_ACCESS_KEY: ${{ secrets.LAMBDA_ACCESS_KEY }}
-          BASE_URL: https://dev.ashurityhealth.com/login
-        run: |
-          npx playwright test --config=playwright.config.lt.ts
+      - name: Install Playwright
+        run: npx playwright install --with-deps
+
+      - name: Run Playwright Tests
+        run: npx playwright test
