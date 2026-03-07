@@ -60,11 +60,11 @@ jobs:
       - name: Run Playwright Tests
         run: npx playwright test
 
-      # Fix localhost URLs in ALL history files
+      # Fix localhost URLs in history files
       - name: Fix Allure History URLs
         run: |
           if [ -d "allure-results/history" ]; then
-            echo "Fixing localhost URLs in history..."
+            echo "Fixing localhost URLs..."
             sed -i 's|http://localhost|https://manojsenji.github.io/Ashurity_Playwright|g' allure-results/history/*.json || true
           fi
 
@@ -74,16 +74,7 @@ jobs:
         run: |
           allure generate allure-results --clean -o allure-report
 
-      # Save history for next build
-      - name: Save history
-        if: always()
-        run: |
-          mkdir -p allure-report/history
-          if [ -d "allure-results/history" ]; then
-            cp -r allure-results/history/* allure-report/history
-          fi
-
-      # Upload artifact
+      # Upload report artifact
       - name: Upload Allure Report
         uses: actions/upload-artifact@v4
         if: always()
