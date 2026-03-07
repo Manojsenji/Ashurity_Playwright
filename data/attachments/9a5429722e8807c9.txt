@@ -1,0 +1,16 @@
+[2026-03-07 10:20:01] INFO: Starting Test: ROC creates user: Auto2 Test2
+[2026-03-07 10:20:04] INFO: Starting login process
+[2026-03-07 10:20:06] INFO: Role selection popup appeared.
+[2026-03-07 10:20:07] INFO: ROC role selected and navigated to dashboard.
+[2026-03-07 10:20:07] INFO: Starting ROC user creation: roc1772878807370
+Waiting for Role Management button...
+Clicking Role Management...
+Navigated to account page.
+[2026-03-07 10:20:16] INFO: User creation SUCCESS: roc1772878807370
+Waiting for Role Management button...
+Clicking Role Management...
+Navigated to account page.
+[2026-03-07 10:20:16] INFO: Searching user with email: roc_1772878807370@test.com
+[2026-03-07 10:20:22] INFO: Retry attempt 1
+[2026-03-07 10:20:22] INFO: User successfully found in table: roc_1772878807370@test.com
+[2026-03-07 10:20:22] INFO: Test Passed: ROC creates user: Auto2 Test2
