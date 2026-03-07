@@ -37,7 +37,7 @@ jobs:
       - name: Install Allure
         run: npm install -g allure-commandline
 
-      # Get previous Allure history BEFORE running tests
+      # Restore previous Allure history for Trends
       - name: Get Previous Allure History
         run: |
           git clone --depth=1 --branch gh-pages https://github.com/${{ github.repository }}.git gh-pages || echo "No gh-pages branch yet"
@@ -50,7 +50,18 @@ jobs:
             echo "No previous history found"
           fi
 
-      # Run Tests
+      # Add executor info for Allure (shows build details in report)
+      - name: Add Allure Executor Info
+        run: |
+          mkdir -p allure-results
+          echo '{
+            "name": "GitHub Actions",
+            "type": "github",
+            "buildName": "Build #${{ github.run_number }}",
+            "buildUrl": "https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          }' > allure-results/executor.json
+
+      # Run Playwright Tests
       - name: Run Playwright Tests
         run: npx playwright test
 
@@ -64,7 +75,7 @@ jobs:
             echo "No allure-results found"
           fi
 
-      # Upload Allure report
+      # Upload Allure report artifact
       - name: Upload Allure Report
         uses: actions/upload-artifact@v4
         if: always()
@@ -80,10 +91,11 @@ jobs:
           name: playwright-report
           path: playwright-report
 
-      # Deploy Allure report
+      # Deploy Allure report to GitHub Pages
       - name: Deploy Allure Report to GitHub Pages
         if: always()
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./allure-report
+          keep_files: true
