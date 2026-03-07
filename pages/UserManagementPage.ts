@@ -1,4 +1,5 @@
 import { Page, Locator, expect } from "@playwright/test";
+import { retry } from "../utils/retryUtils";
 
 export class UserManagementPage {
   readonly page: Page;
@@ -18,18 +19,26 @@ export class UserManagementPage {
   }
 
   async searchUser(email: string) {
+    await this.searchBox.fill("");
     await this.searchBox.fill(email);
     await this.searchBox.press("Enter");
 
     // wait for search request to complete
     await this.page.waitForLoadState("networkidle");
+    await this.page.waitForTimeout(3000);
   }
 
   async validateEmailExists(email: string) {
-    const row = this.page.locator(
-      `//table//tbody//tr[td[contains(text(),'${email}')]]`,
-    );
+    await retry(
+      async () => {
+        const row = this.page.locator("table tbody tr", {
+          hasText: email,
+        });
 
-    await expect(row).toBeVisible({ timeout: 15000 });
+        await expect(row).toBeVisible({ timeout: 5000 });
+      },
+      5,
+      3000,
+    );
   }
 }
