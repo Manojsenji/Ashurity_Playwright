@@ -37,7 +37,7 @@ jobs:
       - name: Install Allure CLI
         run: npm install -g allure-commandline
 
-      # Checkout gh-pages branch to restore history
+      # Checkout gh-pages branch to restore previous history
       - name: Checkout gh-pages
         uses: actions/checkout@v4
         with:
@@ -45,7 +45,7 @@ jobs:
           path: gh-pages
         continue-on-error: true
 
-      # Restore previous history
+      # Restore previous Allure history
       - name: Restore Allure History
         run: |
           if [ -d "gh-pages/history" ]; then
@@ -56,14 +56,16 @@ jobs:
             echo "No previous history found"
           fi
 
+      # Run Playwright tests
       - name: Run Playwright Tests
         run: npx playwright test
 
-      # Fix localhost URLs in trend history
+      # Fix localhost URLs in ALL history files
       - name: Fix Allure History URLs
         run: |
-          if [ -f allure-results/history/history-trend.json ]; then
-            sed -i 's|http://localhost|https://manojsenji.github.io/Ashurity_Playwright|g' allure-results/history/history-trend.json
+          if [ -d "allure-results/history" ]; then
+            echo "Fixing localhost URLs in history..."
+            sed -i 's|http://localhost|https://manojsenji.github.io/Ashurity_Playwright|g' allure-results/history/*.json || true
           fi
 
       # Generate Allure report
